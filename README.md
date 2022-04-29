@@ -1,3 +1,10 @@
+I'm using:
+
+- [CSS Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+- [BEM syntax](https://en.bem.info/methodology/)
+- OOCSS
+- [SMACSS](http://smacss.com/)
+
 # **MarkItAsDone Landings Install and Develop Manual**
 
 
