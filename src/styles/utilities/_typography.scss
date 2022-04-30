@@ -1,0 +1,10 @@
+.u-league {
+    font-family: $league;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    @include font-size(12px);
+}
+
+.u-league--blue {
+    color: $primary-color;
+}

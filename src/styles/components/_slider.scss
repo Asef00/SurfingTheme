@@ -1,0 +1,30 @@
+.c-slider__item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/////////////////
+
+.c-slider__content {
+    position: absolute;
+}
+
+.c-slider__title {
+    font-size: 62px;
+    font-family: $playfair;
+    text-transform: capitalize;
+}
+
+.c-slider__cap {
+    color: $text-muted;
+    max-width: 410px;
+    @include font-size(14px);
+    font-family: $poppins;
+}
+
+/////////////////////
+
+.c-slider__img {
+    margin-left: auto;
+}

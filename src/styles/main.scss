@@ -49,12 +49,14 @@
 @import 'components/button';
 @import 'components/link';
 @import 'components/nav';
+@import 'components/slider';
 // PARTIALS
-@import 'partials/_header.scss';
-@import 'partials/_footer.scss';
+@import 'partials/header';
+@import 'partials/footer';
 // UTILITIES
 // @import "utilities/utilities.clearfix";
-@import 'utilities/_flex.scss';
+@import 'utilities/flex';
+@import 'utilities/typography';
 // Be aware that enabling offsets produces a large chunk of classes which might
 // bloat your CSS, depending of the amount of breakpoints you defined.
 // Only set this to `true` if you are absolutely sure about what you are doing.

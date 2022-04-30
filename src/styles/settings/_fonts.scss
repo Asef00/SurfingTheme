@@ -1,8 +1,36 @@
+// League Spartan
 @font-face {
-    font-family: "League Spartan";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/leaguespartan-bold.woff") format("woff"),
-        url("../fonts/leaguespartan-bold.woff2") format("woff2");
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/leaguespartan-bold.woff") format("woff"),
+    url("../fonts/leaguespartan-bold.woff2") format("woff2");
+}
+
+// Poppins
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Poppins-Light.woff") format("woff");
+}
+
+// Playfair Display
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
 }
