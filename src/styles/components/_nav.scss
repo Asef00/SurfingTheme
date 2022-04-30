@@ -1,0 +1,8 @@
+.c-nav {
+    text-transform: uppercase;
+    letter-spacing: .62em;
+    font-family: $league;
+    @include font-size(12px);
+    display: flex;
+    gap: 5em;
+}

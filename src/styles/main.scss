@@ -45,9 +45,10 @@
 //----------------------------------*\
 // Components
 //----------------------------------*/
-@import 'components/_section.scss';
-@import 'components/_button.scss';
-@import 'components/_link.scss';
+@import 'components/section';
+@import 'components/button';
+@import 'components/link';
+@import 'components/nav';
 // PARTIALS
 @import 'partials/_header.scss';
 @import 'partials/_footer.scss';
