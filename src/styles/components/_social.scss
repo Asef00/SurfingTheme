@@ -1,0 +1,11 @@
+.c-social {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: auto 0;
+    padding: 0;
+}
+
+.c-social--vertical {
+    flex-direction: column;
+}
