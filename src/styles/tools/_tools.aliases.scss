@@ -1,6 +1,14 @@
 $global-font-size:          16px;
 $global-line-height:        24px;
 
+
+@mixin text-league {
+	font-family: $league;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    @include font-size(12px);
+}
+
 @mixin font-size($font-size, $line-height: auto, $important: false) {
 
 	@if (type-of($font-size) == number) {

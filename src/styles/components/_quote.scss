@@ -1,0 +1,17 @@
+.c-quote {
+    text-align: center;
+    color: #333;
+    opacity: 90%;
+    margin: 10em auto;
+}
+
+.c-quote__text {
+    font-family: $playfair;
+    @include font-size(26px);
+    max-width: 600px;
+    margin: auto;
+}
+
+.c-quote__author {
+    @include text-league;
+}
