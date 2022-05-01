@@ -1,11 +1,22 @@
 .c-social {
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    margin: auto 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: auto 0;
+  padding: 0;
+
+  &--vertical {
+    flex-direction: column;
+  }
 }
 
-.c-social--vertical {
-    flex-direction: column;
+.c-social__icon {
+  @include flex-center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+
+  &:hover {
+    background: #999;
+  }
 }
