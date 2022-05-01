@@ -32,16 +32,12 @@
 }
 
 .c-media__text {
-  font-family: $poppins;
   @include text-secondary;
-  @include font-size(14px);
 }
 
 .c-media__play {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
   top: 0;
   bottom: 0;
   border-radius: 100%;

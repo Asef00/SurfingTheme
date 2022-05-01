@@ -1,7 +1,5 @@
 .c-article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
 }
 
 .c-article__desc {
@@ -44,8 +42,6 @@
 
 .c-article__text {
   @include text-secondary;
-  @include font-size(14px);
-  font-family: $poppins;
   margin-bottom: 4em;
 }
 

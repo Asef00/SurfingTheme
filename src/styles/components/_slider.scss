@@ -21,10 +21,8 @@
 }
 
 .c-slider__cap {
-    color: $text-muted;
+    @include text-secondary;
     max-width: 410px;
-    @include font-size(14px);
-    font-family: $poppins;
 }
 
 /////////////////////
