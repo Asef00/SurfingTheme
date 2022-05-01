@@ -1,7 +1,6 @@
 .o-wrapper {
     margin: 0 auto;
     @include mq(lg) {
-        padding: 1.5em;
         max-width: 90em;
     }
 }

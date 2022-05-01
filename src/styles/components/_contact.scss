@@ -1,0 +1,15 @@
+.c-contact {
+    margin-left: -1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.c-contact__info {
+    padding: 0 3em;
+}
+
+.c-contact__addr {
+    font-family: $playfair;
+    @include font-size(32px);
+    padding: 0 2em;
+}

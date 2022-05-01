@@ -11,6 +11,10 @@
     width: calc(100% - 0.6em); // a hack to deal with last letter spacing
     border-bottom: 2px solid $primary-color;
   }
+
+  &--primary {
+    color: $primary-color;
+  }
 }
 
 

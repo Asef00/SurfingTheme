@@ -1,0 +1,6 @@
+.o-section__wrapper {
+    
+    @include mq(lg) {
+        padding: 1.5em;
+    }
+}
