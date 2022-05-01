@@ -6,7 +6,7 @@ $global-line-height:        24px;
 	font-family: $league;
     letter-spacing: .6em;
     text-transform: uppercase;
-    @include font-size(12px);
+    @include font-size(10px);
 }
 
 @mixin font-size($font-size, $line-height: auto, $important: false) {

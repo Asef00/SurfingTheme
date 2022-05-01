@@ -1,0 +1,16 @@
+.c-link {
+  @include text-league;
+  padding-bottom: 0.5em;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 0.6em); // a hack to deal with last letter spacing
+    border-bottom: 2px solid $primary-color;
+  }
+}
+
+

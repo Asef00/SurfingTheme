@@ -7,7 +7,8 @@ html {
 
 body {
   color: #000;
-  background: #fff;
+  background-color: #fff;
+  // background-image: url(../images/line.png);
 }
 
 .main {
@@ -18,4 +19,8 @@ a {
   color: #0b0c11;
   text-decoration: none;
   transition: 0.2s;
+}
+
+img {
+  max-width: 100%;
 }
