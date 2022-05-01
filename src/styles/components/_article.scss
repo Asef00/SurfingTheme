@@ -1,0 +1,59 @@
+.c-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-article__desc {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2em;
+  max-width: 26.27em;
+}
+
+.c-article__count {
+  @include font-size(130px, 0.2);
+  font-family: $league;
+  color: #f9f9f9;
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+.c-article__title {
+  font-family: $playfair;
+  @include font-size(42px);
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 0.3em;
+  margin-top: 0;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: .5em;
+    border-bottom: 2px solid #5da8ef;
+  }
+}
+
+.c-article__text {
+  @include text-secondary;
+  @include font-size(14px);
+  font-family: $poppins;
+  margin-bottom: 4em;
+}
+
+.c-article__side {
+  @include text-league;
+  @include text-ghost;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  align-self: start;
+  padding-right: 1em;
+}

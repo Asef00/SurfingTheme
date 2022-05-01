@@ -32,9 +32,8 @@
 }
 
 .c-media__text {
-  color: #616161;
-  opacity: .65;
   font-family: $poppins;
+  @include text-secondary;
   @include font-size(14px);
 }
 

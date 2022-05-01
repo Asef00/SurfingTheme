@@ -1,9 +1,6 @@
 .c-hero {
   display: grid;
   grid-template-columns: auto min-content;
-//   grid-template-rows: repeat(2, 1fr);
-//   grid-column-gap: 0px;
-//   grid-row-gap: 0px;
 }
 
 .c-hero__side {
@@ -14,7 +11,8 @@
 }
 
 .c-hero__sidenote {
-  color: $text-muted;
+  @include text-ghost;
+  @include text-league;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
 }

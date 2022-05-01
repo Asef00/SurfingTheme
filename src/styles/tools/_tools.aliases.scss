@@ -6,8 +6,19 @@ $global-line-height:        24px;
 	font-family: $league;
     letter-spacing: .6em;
     text-transform: uppercase;
-    @include font-size(10px);
+    @include font-size(9px);
 }
+
+@mixin text-secondary {
+	color: #616161;
+	opacity: .65;
+}
+
+@mixin text-ghost {
+	color: #0b0c11;
+	opacity: .2;
+}
+
 
 @mixin font-size($font-size, $line-height: auto, $important: false) {
 

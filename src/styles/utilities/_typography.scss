@@ -2,7 +2,9 @@
     font-family: $league;
     letter-spacing: .6em;
     text-transform: uppercase;
-    @include font-size(12px);
+    @include font-size(9px);
+    opacity: .2;
+    color: #0b0c11;
 }
 
 .u-league--blue {
