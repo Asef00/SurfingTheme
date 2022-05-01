@@ -1,0 +1,19 @@
+.c-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title__sub {
+    @include text-league;
+    color: $primary-color;
+    margin: 0;
+}
+
+.c-title__main {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: $playfair;
+    @include font-size(42px,0.8);
+}
