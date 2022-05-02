@@ -1,6 +1,11 @@
 .c-header {
-    display: flex;
-    align-items: center;
-    gap: 10em;
-    grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include mq(lg) {
+    display: grid;
+    grid-template-columns: 13em auto;
+    justify-content: flex-start;
+  }
 }

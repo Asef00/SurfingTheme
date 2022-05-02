@@ -1,10 +1,17 @@
 .o-section {
+  padding: 0.5em 0;
+
+  @include mq(lg) {
     padding: 2em 0;
+  }
 }
 
 .o-section__wrapper {
-    
-    @include mq(lg) {
-        padding: 1.5em;
-    }
+  padding: 0 1em;
+  margin: 0 auto;
+
+  @include mq(lg) {
+    padding: 0;
+    max-width: 76.25em;
+  }
 }

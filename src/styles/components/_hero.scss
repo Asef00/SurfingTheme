@@ -1,18 +1,42 @@
+.c-section--hero {
+  // padding-top: .5em;
+}
+
 .c-hero {
-  display: grid;
-  grid-template-columns: auto min-content;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  @include mq(lg) {
+    gap: 2em;
+    // display: grid;
+    // grid-template-columns: auto min-content;
+  }
 }
 
 .c-hero__side {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-between;
   grid-area: 1 / 2 / 3 / 3;
+  flex-direction: column;
+  margin-top: 1em;
+  
+  @include mq(lg) {
+    margin-top: 0;
+    position: absolute;
+    right: -3em;
+    height: 100%;
+  }
 }
 
 .c-hero__sidenote {
   @include text-ghost;
   @include text-league;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  margin: 0;
+
+  @include mq(lg) {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+  }
 }

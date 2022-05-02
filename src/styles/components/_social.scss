@@ -5,8 +5,12 @@
   margin: auto 0;
   padding: 0;
 
-  &--vertical {
-    flex-direction: column;
+  @include mq(lg) {
+    margin: 0;
+    
+    &--vertical {
+      flex-direction: column;
+    }
   }
 }
 

@@ -1,8 +1,34 @@
 .c-nav {
-    text-transform: uppercase;
-    letter-spacing: .62em;
-    font-family: $league;
+  display: flex;
+  font-family: $league;
+  text-transform: uppercase;
+  @include font-size(8px);
+  letter-spacing: 0.3em;
+  gap: 2em;
+
+  @include mq(lg) {
+    letter-spacing: 0.62em;
     @include font-size(9px);
-    display: flex;
     gap: 5em;
+  }
+}
+
+.c-nav__link {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: 2px solid $primary-color;
+    transition: 0.2s;
+  }
+
+  &:hover {
+    &:before {
+      width: calc(100% - 0.6em); // a hack to deal with last letter spacing
+    }
+  }
 }
