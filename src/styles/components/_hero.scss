@@ -9,6 +9,7 @@
   
   @include mq(lg) {
     gap: 2em;
+    margin-right: 2em;
     // display: grid;
     // grid-template-columns: auto min-content;
   }
