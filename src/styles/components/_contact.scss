@@ -1,15 +1,31 @@
+.c-section--contact {
+    margin-bottom: 3em;
+}
+
 .c-contact {
-    margin-left: -1.5em;
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  font-feature-settings: "lnum";
+
+  @include mq(lg) {
     align-items: center;
+    margin-left: -1.5em;
+    flex-direction: row;
+  }
 }
 
 .c-contact__info {
+  @include mq(lg) {
     padding: 0 3em;
+  }
 }
 
 .c-contact__addr {
-    font-family: $playfair;
+  font-family: $playfair;
+  @include font-size(20px);
+
+  @include mq(lg) {
     @include font-size(32px);
     padding: 0 2em;
+  }
 }
