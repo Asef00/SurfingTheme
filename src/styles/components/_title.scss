@@ -15,5 +15,8 @@
     margin: 0;
     text-transform: capitalize;
     font-family: $playfair;
-    @include font-size(42px,0.8);
+    
+    @include mq(lg) {
+        @include font-size(42px,0.8);
+    }
 }

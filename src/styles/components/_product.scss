@@ -10,27 +10,35 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   width: 250px;
+  max-width: 50%;
   text-align: center;
 }
 
 .c-product__info {
-    margin-left: -2em;
-    text-align: left;
-
+  margin-left: -2em;
+  text-align: left;
 }
 
 .c-product__cat {
   font-family: $poppins;
   text-transform: uppercase;
   color: #7a7a7a;
-  @include font-size(12px,1.5);
+  @include font-size(11px);
   letter-spacing: 0.2em;
+
+  @include mq(lg) {
+    @include font-size(12px, 1.5);
+  }
 }
 
 .c-product__title {
   font-family: $playfair;
   margin-bottom: 1em;
-  @include font-size(26px,1);
+  @include font-size(20px);
+  
+  @include mq(lg) {
+    @include font-size(26px, 1);
+  }
 }
 
 .c-product__price {
