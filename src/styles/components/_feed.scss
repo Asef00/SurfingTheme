@@ -5,9 +5,9 @@
 .c-feed {
   display: flex;
   flex-direction: column;
-  gap: 5em;
+//   gap: 5em;
+  gap: 7em;
 
   @include mq(lg) {
-    gap: 7em;
   }
 }

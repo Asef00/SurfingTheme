@@ -1,13 +1,13 @@
 .c-social {
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
   margin: auto 0;
   padding: 0;
 
   @include mq(lg) {
     margin: 0;
-    
+
     &--vertical {
       flex-direction: column;
     }

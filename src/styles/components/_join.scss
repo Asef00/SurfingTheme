@@ -1,5 +1,12 @@
 .c-section--join {
-    // margin-bottom: 4em;
+  // margin-bottom: 4em;
+  background-image: url(../images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  // a hack to expand background image
+  margin: -30em 0;
+  padding: 30em 0;
 }
 
 .c-join {
@@ -31,9 +38,9 @@
 }
 
 .c-join__btn {
-    @include flex-center;
-    background: $primary-color;
-    border: 0;
-    width: 50px;
-    height: 50px;
+  @include flex-center;
+  background: $primary-color;
+  border: 0;
+  width: 50px;
+  height: 50px;
 }

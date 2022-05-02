@@ -1,8 +1,15 @@
 .c-section--shop {
-  background: url(../images/shop-bg.png);
-  margin-bottom: 5em;
+  background-image: url(../images/shop-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: -10em;
+  padding-bottom: 20em;
+  
   @include mq(lg) {
-    margin-bottom: 0;
+      // margin-bottom: 0;
+      // a hack to expand background image
+      margin: -30em 0;
+      padding: 30em 0;
   }
 }
 

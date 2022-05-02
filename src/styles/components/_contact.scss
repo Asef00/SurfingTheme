@@ -5,7 +5,6 @@
 .c-contact {
   display: flex;
   flex-direction: column;
-  font-feature-settings: "lnum";
 
   @include mq(lg) {
     align-items: center;
