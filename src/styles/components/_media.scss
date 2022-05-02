@@ -1,11 +1,19 @@
 .c-section--media {
-  // padding: 5em;
+  margin-bottom: 2em;
 }
 
 .c-media {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  flex-direction: column-reverse;
   align-items: center;
+  margin-right: -1em;
+  margin-left: -1em;
+
+  @include mq(lg) {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
 
 .c-media__item {
@@ -15,11 +23,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 2em;
 
   &--overlay {
     grid-column-start: 6;
     grid-column-end: 13;
     position: relative;
+    margin: 0 0 -2em 2em;
+
+    @include mq(lg) {
+      margin: 0 0 -2em 0;
+    }
   }
 }
 
@@ -50,5 +64,9 @@
 }
 
 .c-media__info {
-  padding: 3em 10em 6em 7em;
+  padding: 1em;
+
+  @include mq(lg) {
+    padding: 3em 10em 6em 7em;
+  }
 }
