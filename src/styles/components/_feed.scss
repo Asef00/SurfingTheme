@@ -1,9 +1,13 @@
 .c-section--feed {
-    // padding: 5em;
+  // padding: 5em;
 }
 
 .c-feed {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+
+  @include mq(lg) {
     gap: 7em;
+  }
 }

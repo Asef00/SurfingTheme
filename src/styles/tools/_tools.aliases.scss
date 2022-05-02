@@ -12,14 +12,22 @@ $global-line-height: 24px;
   font-family: $league;
   letter-spacing: 0.6em;
   text-transform: uppercase;
-  @include font-size(9px);
+  @include font-size(8px);
+
+  @include mq(lg) {
+    @include font-size(9px);
+  }
 }
 
 @mixin text-secondary {
   font-family: $poppins;
   color: #616161;
   opacity: 0.65;
-  @include font-size(14px);
+  @include font-size(12px);
+
+  @include mq(lg) {
+    @include font-size(14px);
+  }
 }
 
 @mixin text-ghost {

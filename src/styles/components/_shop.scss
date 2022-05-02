@@ -1,15 +1,23 @@
 .c-section--shop {
-    background: url(../images/shop-bg.png);
+  background: url(../images/shop-bg.png);
+  margin-bottom: 5em;
+  @include mq(lg) {
+    margin-bottom: 0;
+  }
 }
 
 .c-shop {
-    text-align: center;
-    overflow: hidden;
+  text-align: center;
+  overflow: hidden;
 }
 
 .c-shop__slider {
-    display: flex;
-    justify-content: center;
-    gap: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+
+  @include mq(lg) {
     margin-bottom: 5em;
+  }
 }
