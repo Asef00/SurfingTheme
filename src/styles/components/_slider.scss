@@ -27,7 +27,7 @@
   color: #000;
   display: block;
   line-height: 0;
-  opacity: 0.7;
+  opacity: .7;
 
   @include mq(lg) {
     color: $primary-color;
