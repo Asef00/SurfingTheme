@@ -22,7 +22,7 @@ $global-line-height: 24px;
 @mixin text-secondary {
   font-family: $poppins;
   color: #616161;
-  opacity: .65;
+  opacity: 0.65;
   @include font-size(12px);
 
   @include mq(lg) {
@@ -32,7 +32,7 @@ $global-line-height: 24px;
 
 @mixin text-ghost {
   color: #0b0c11;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 @mixin font-size($font-size, $line-height: auto, $important: false) {
