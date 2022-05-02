@@ -6,6 +6,7 @@
   grid-template-areas:
     "desc side"
     "img side";
+  justify-content: center;
 
   @include mq(lg) {
     @include flex-center;
@@ -21,11 +22,11 @@
   align-items: flex-start;
   max-width: 26.27em;
   grid-area: desc;
-  margin-bottom: 1em;
+  margin: 0 auto 1em;
 
   @include mq(lg) {
     padding: 2em;
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 }
 
