@@ -5,8 +5,9 @@ I'm using:
 - OOCSS
 - [SMACSS](http://smacss.com/)
 
-# **MarkItAsDone Landings Install and Develop Manual**
+Check it out on [Vercel](https://surfing-theme.vercel.app/)
 
+[Design Link](https://drive.google.com/file/d/1pz6m8A7gEIiwr3jc7ZT_Ywni6AxI44eg/view?usp=sharing)
 
 ## **Quick Lunch**
 If you want have a quick start, you can start with the `dist` folder. just go to the `dist` folder and apply your changes to it. To apply changes to the content, simply open the `index.html` file and replace your text with the text. Also, to change the images, put your pictures in the image folder according to the size specified.
