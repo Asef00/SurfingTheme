@@ -15,12 +15,12 @@
     var flkty = $heroSlider.data("flickity");
     $total.text(flkty.slides.length);
 
-    function updateStatus() {
+    function updateIndicator() {
       var cellNumber = flkty.selectedIndex + 1;
       $index.text(cellNumber);
     }
-    updateStatus();
-    $heroSlider.on("select.flickity", updateStatus);
+    updateIndicator();
+    $heroSlider.on("select.flickity", updateIndicator);
 
     // Events
     $(".js-prev-btn").on("click", function () {
