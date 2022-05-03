@@ -11,6 +11,10 @@
       margin: -30em 0;
       padding: 30em 0;
   }
+
+  .o-section__wrapper {
+    max-width: none;
+  }
 }
 
 .c-shop {
@@ -19,10 +23,8 @@
 }
 
 .c-shop__slider {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
   margin-bottom: 1em;
+  margin: 0 2em 1em; /* space for prev/next buttons */
 
   @include mq(lg) {
     margin-bottom: 5em;

@@ -32,3 +32,23 @@ button {
   cursor: pointer;
   border: 0;
 }
+
+// Flickity
+.flickity-button {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+.flickity-prev-next-button {
+  top: calc(50% + 4em);
+}
+.flickity-prev-next-button.previous {
+  left: -2em;
+}
+.flickity-prev-next-button.next {
+  right: -2em;
+}
+.flickity-button-icon {
+  fill: #333;
+}
