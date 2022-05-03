@@ -1,0 +1,25 @@
+.c-indicator {
+  @include text-league;
+  letter-spacing: 0.4em;
+  display: flex;
+  align-items: center;
+  @include font-size(10px);
+  margin: 0 -1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.c-indicator__index {
+  color: $primary-color;
+}
+
+.c-indicator__devider {
+    @include text-secondary;
+    font-size: inherit !important;
+}
+
+.c-indicator__btn {
+  background-color: transparent;
+  margin: 0 1em;
+}

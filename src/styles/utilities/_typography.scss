@@ -5,8 +5,12 @@
     @include font-size(9px);
     opacity: 0.2;
     color: #0b0c11;
+
+    &--blue {
+        color: $primary-color;
+    }
 }
 
-.u-league--blue {
-    color: $primary-color;
+.u-muted {
+    @include text-secondary;
 }

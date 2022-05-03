@@ -60,6 +60,7 @@
     "flickity": "^2.3.0",
     "formdata-polyfill": "^3.0.13",
     "inuitcss": "^6.0.0",
+    "jquery": "^3.6.0",
     "smooth-scroll": "^15.0.0"
   }
 }
