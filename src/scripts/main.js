@@ -9,6 +9,7 @@
       pageDots: false,
       autoPlay: 5000,
       wrapAround: true,
+      imagesLoaded: true,
       prevNextButtons: false,
     });
     var $index = $(".js-hero-index");
@@ -36,6 +37,7 @@
       pageDots: false,
       cellAlign: 'left',
       wrapAround: true,
+      imagesLoaded: true,
       arrowShape: { 
         x0: 10,
         x1: 40, y1: 30,

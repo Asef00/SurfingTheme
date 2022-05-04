@@ -1,30 +1,42 @@
 .c-section--shop {
   background-image: url(../images/shop-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   margin-bottom: -10em;
   padding-bottom: 20em;
-  
+
   @include mq(lg) {
-      // margin-bottom: 0;
-      // a hack to expand background image
-      margin: -30em 0;
-      padding: 30em 0;
+    // a hack to expand background image
+    margin: -20em 0;
+    padding: 25em 0;
+  }
+  @include mq(wide) {
+    .o-section__wrapper {
+      max-width: none;
+    }
   }
 
   .o-section__wrapper {
     max-width: none;
+    padding: 0;
   }
 }
 
 .c-shop {
   text-align: center;
   overflow: hidden;
+
+  @include mq(lg) {
+    margin-bottom: 5em;
+  }
 }
 
 .c-shop__slider {
   margin-bottom: 1em;
-  margin: 0 2em 1em; /* space for prev/next buttons */
+  // margin: 0 2em 1em; /* space for prev/next buttons */
+  max-width: 76.25em;
+  margin: auto;
+  margin-bottom: 2em;
 
   @include mq(lg) {
     margin-bottom: 5em;

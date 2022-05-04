@@ -34,6 +34,10 @@ button {
 }
 
 // Flickity
+.flickity-slider {
+  display: flex;
+  align-items: end;
+}
 .flickity-button {
   background-color: transparent;
   &:hover {
