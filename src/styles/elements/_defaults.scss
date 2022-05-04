@@ -10,6 +10,18 @@ body {
   background-color: #fff;
   font-feature-settings: "lnum"; // lined numbers
   // background-image: url(../images/line.png);
+
+  $margin: calc(1*(100% - 76.25em)/2);
+  $space: calc(76.25em/4);
+  $lnColor: rgba(88, 88, 88, .06);
+  background:
+    linear-gradient($lnColor 0 0) $margin,
+    linear-gradient($lnColor 0 0) calc(1*#{$space} + #{$margin}),
+    linear-gradient($lnColor 0 0) calc(2*#{$space} + #{$margin}),
+    linear-gradient($lnColor 0 0) calc(3*#{$space} + #{$margin}),
+    linear-gradient($lnColor 0 0) calc(100% - #{$margin});
+  background-size:1px 100%; /* 1px line full height*/
+  background-repeat:no-repeat;
 }
 
 .main {
